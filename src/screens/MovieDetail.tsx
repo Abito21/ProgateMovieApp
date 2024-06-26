@@ -1,13 +1,13 @@
 import React from 'react'
 import { View, Text, Button, StyleSheet } from 'react-native'
 
-export default function Home({navigation}: any): JSX.Element {
+export default function MovieDetail({navigation}: any): JSX.Element {
   return (
     <View style={styles.container}>
-      <Text>Home</Text>
+      <Text>Movie Detail</Text>
       <Button
-        title="Pergi ke MovieDetail"
-        onPress={() => navigation.navigate('MovieDetail')}
+        title="Kembali"
+        onPress={() => navigation.goBack()}
       />
     </View>
   )
