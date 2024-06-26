@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Text, View, Image, StyleSheet, ImageBackground, FlatList, ScrollView, TouchableOpacity } from "react-native";
+import { Text, View, StyleSheet, ImageBackground, FlatList, ScrollView, TouchableOpacity } from "react-native";
 import { LinearGradient } from "expo-linear-gradient";
 import { FontAwesome } from '@expo/vector-icons';
 import { API_ACCESS_TOKEN } from "@env";
