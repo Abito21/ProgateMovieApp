@@ -1,10 +1,9 @@
-import React from 'react'
-import { NavigationContainer } from '@react-navigation/native'
-import BottomTabNavigator from './src/navigations/BottomTabNavigation'
-import HomeStackNavigator from './src/navigations/HomeStackNavigation'
+import React from "react";
+import { NavigationContainer } from "@react-navigation/native"
+import BottomTabNavigator from "./src/navigations/BottomTabNavigation";
 
 export default function App(): JSX.Element {
-  return (
+  return(
     <NavigationContainer>
       <BottomTabNavigator />
     </NavigationContainer>
